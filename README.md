@@ -1,4 +1,4 @@
-# IBMTask Documentation 🚀
+# IBM Task Documentation 🚀
 
 Welcome to the Automated Parking System project documentation! This system leverages AI to capture vehicle plate numbers and timestamps at parking lot entry points, providing users with an automated fee calculation web application.
 
