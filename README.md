@@ -42,8 +42,5 @@ As the project continues, further work will focus on completing containerization
 
 ## Tech Stack 💻
 
-- Node.js
-- Express.js
-- React
-- Docker
-- AWS (Amazon RDS, ECR, ECS)
+- Visual Studio Code
+- JavaScript
