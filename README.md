@@ -1,48 +1,49 @@
-# IBMTask
+# IBMTask Documentation 🚀
 
-Automated Parking System Documentation
+Welcome to the Automated Parking System project documentation! This system leverages AI to capture vehicle plate numbers and timestamps at parking lot entry points, providing users with an automated fee calculation web application.
 
-1. System Description:
+## System Overview 📝
 
-Implemented an Automated Parking System that uses AI to capture vehicle plate numbers and timestamps at the parking lot entry.
-Developed a web application that automates parking fee calculations and displays parking duration and fees to users.
+### Backend Development:
+- Built a robust backend application in Node.js with the Express.js framework.
+- Successfully integrated the Plate Recognizer API for capturing car plate numbers from photos.
+- Implemented logic for accurate parking fee calculation based on vehicle type and time of day.
+- Ensured secure interactions with the Amazon RDS (Relational Database Service) for data storage.
 
-2. Key Achievements:
+### Frontend Development:
+- Developed a modern and user-friendly frontend application using React.
+- Created a responsive user interface, enabling users to easily view parking duration and fees.
 
-Development of the backend:
+### Dynamic Fee Rates:
+- Implemented a feature that allows administrators to adjust parking fee rates without modifying the source code.
+- Fee rates are stored in the database and can be conveniently modified through the online app.
 
-I designed and built the backend application in Node.js with the Express.js framework.
-Plate Recognizer API was successfully integrated for gathering car plate numbers from photos.
-Logic for proper parking fee calculation based on vehicle type and daytime was implemented.
-Amazon RDS (Relational Database Service) database interactions are secure.
+### Unit Testing:
+- Utilized unit tests to enhance robustness, addressing crucial functionality and business rules.
+- Tested the accuracy of parking fee estimations under various conditions.
 
-Development of the front end:
+### Containerization (Work in Progress):
+- Employed Docker for containerizing both backend and frontend applications.
+- Docker images are designed for easy deployment and scalability.
 
-Using React, I created a modern and user-friendly frontend application.
-Created a responsive user interface that allow users to easily view parking duration and fees.
+### AWS Deployment (Work in Progress):
+- Deployed the containerized application to the AWS cloud platform.
+- Utilized Amazon ECR (Elastic Container Registry) to securely store Docker images.
+- Created an Amazon ECS (Elastic Container Service) cluster for hosting the application.
 
-Dynamic Fee Rates:
+## Achievements and Progress 🌟
 
-A feature that allows administrators to adjust parking fee rates without modifying the source code has been implemented.
-Fee rates are saved in the database and readily modified via the online app.
+- Successfully designed, developed, containerized, and initiated deployment of the Automated Parking System on AWS.
+- Demonstrated a high degree of technical proficiency and commitment to best practices throughout the project.
 
-Unit Testing: (May have some bugs)
+## Next Steps 🚧
 
-Unit tests were used to provide robustness by addressing important functionality and business rules.
-The accuracy of parking fee estimations was tested under several conditions.
+As the project continues, further work will focus on completing containerization and deploying the system on AWS.
 
-Containerization: (Haven't fully done, but understood)
+## Tech Stack 💻
 
-Docker was used to successfully containerize both the backend and frontend applications.
-Docker images are designed to be easily deployable and scalable.
-
-AWS Deployment: (Haven't done, but learned)
-
-The containerized application was deployed to the AWS cloud platform.
-Amazon ECR (Elastic Container Registry) was used to securely store Docker images.
-For hosting the application, an Amazon ECS (Elastic Container Service) cluster was created.
-
-3. Final thoughts:
-
-Designed, developed, containerized, and deployed a unique Automated Parking System on the AWS platform using Cloud technologies and AI services.
-Throughout the project, shown a high degree of technical skill and commitment to best practices.
+- Node.js
+- Express.js
+- React
+- Docker
+- AWS (Amazon RDS, ECR, ECS)
